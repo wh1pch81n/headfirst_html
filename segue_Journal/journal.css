@@ -1,6 +1,8 @@
 body {
 	font-family: Verdana, Geneva, Arial, sans-serif;
 	font-size: small;
+	background-color: silver;
+	/*background-color: rgb(204, 102, 0);*/
 }
 
 @font-face { /*get a font from the internet*/
@@ -15,4 +17,5 @@ h1 {
 
 h2 {
 	font-size: 130%;
+	font-weight: normal;
 }
