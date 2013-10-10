@@ -1,5 +1,6 @@
 body {
 	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 14px
 }
 
 @font-face { /*get a font from the internet*/
@@ -9,4 +10,9 @@ body {
 
 h1 {
 	font-family: "Emblema One", sans-serif;
+	font-size: 150%; /*the percentaage relative to the parent's*/
+}
+
+h2 {
+	font-size: 1.2em; /*the scale factor relative to the parent's*/
 }
