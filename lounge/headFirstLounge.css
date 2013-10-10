@@ -1,17 +1,20 @@
+body {
+	font-family:sans-serif
+}
+
 p {
-	color: maroon;
-	font-family: sans-serif;
+	color:maroon;
 }
 
 h1, h2 {
-	font-family: sans-serif;
-	color: grey;
+	font-family:sans-serif;
+	color:grey;
 }
 
 h1 {
-	border-bottom: 2px solid black;
+	border-bottom:2px solid black;
 }
 
 h2 {
-	text-decoration: underline;
+	text-decoration:underline;
 }
