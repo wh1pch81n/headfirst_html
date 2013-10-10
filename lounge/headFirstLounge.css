@@ -8,6 +8,24 @@ p {
 	color:maroon;
 }
 
+/*specify that p's in greentea class have these attributes.*/
+p.greentea {
+	color:green;
+}
+
+/*if you want all elements in the raspberry class to adhere to these attributes then don't specify an element*/
+.raspberry { /*notice that we didn't specify p, only the dot class*/
+	color:skyblue;
+}
+
+p.blueberry {
+	color:blueviolet;
+}
+
+p.cranberry {
+	color:darkred;
+}
+
 h1, h2 {
 	font-family:sans-serif;
 	color:grey;
