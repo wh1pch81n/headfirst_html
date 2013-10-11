@@ -1,40 +1,16 @@
-/*This is how you make comments in css*/
-
 body {
-	font-family:sans-serif
-}
-
-p {
-	color:maroon;
-}
-
-/*specify that p's in greentea class have these attributes.*/
-p.greentea {
-	color:green;
-}
-
-/*if you want all elements in the raspberry class to adhere to these attributes then don't specify an element*/
-.raspberry { /*notice that we didn't specify p, only the dot class*/
-	color:skyblue;
-}
-
-p.blueberry {
-	color:blueviolet;
-}
-
-p.cranberry {
-	color:darkred;
+	font-size: small;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
 h1, h2 {
-	font-family:sans-serif;
-	color:grey;
+	color: #007e7e;
 }
 
 h1 {
-	border-bottom:2px solid black;
+	font-size: 150%;
 }
 
 h2 {
-	text-decoration:underline;
+	font-size: 130%;
 }
