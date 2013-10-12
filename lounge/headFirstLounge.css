@@ -54,16 +54,25 @@ h2 {
 	width: 200px;
 	text-align: center;
 	
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
+	padding: 0px 20px 20px 20px;
 	
 	margin-left: 20px;
 	background-image: url("images/cocktail.gif");
 	background-repeat: repeat-x; /*repeat in the horizontal direction only*/
 }
 
+/*#elixir refers to a <div> id.  we want to affect all the <h2> elements in this <div>*/
+#elixirs h2 {
+	color: black;
+}
 
+#elixirs h3 {
+	color: #d12c47;
+}
+
+#elixirs p {
+	line-height: 100%;
+}
 
 p#elixirReferal {
 	font-style: italic;
