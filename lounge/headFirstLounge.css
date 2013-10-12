@@ -37,11 +37,30 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: top left;
 }
-
-@media screen and (max-width: 480px) {
+/*
+@media screen and (max-device-width: 480px) {
 	#guarantee {
 		margin: 30px;
 		padding: 25px;
 		background-image: none;
 	}
+}
+*/
+
+#menuSpecials {
+	border-color: aquamarine;
+	border-width: medium;
+	border-style: solid;
+	width: 200px;
+	text-align: center;
+	h3 {
+		color: red;
+	}
+}
+
+
+
+p#elixirReferal {
+	font-style: italic;
+	font-weight: bold;
 }
