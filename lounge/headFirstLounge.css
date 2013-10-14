@@ -59,6 +59,7 @@ h2 {
 	margin-left: 20px;
 	background-image: url("images/cocktail.gif");
 	background-repeat: repeat-x; /*repeat in the horizontal direction only*/
+	float: right;
 }
 
 /*#elixir refers to a <div> id.  we want to affect all the <h2> elements in this <div>*/
@@ -76,5 +77,13 @@ h2 {
 
 p#elixirReferal {
 	font-style: italic;
+	font-weight: bold;
+}
+
+.cd {
+	font-style: italic;
+}
+
+.artist {
 	font-weight: bold;
 }
