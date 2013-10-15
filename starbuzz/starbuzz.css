@@ -27,6 +27,14 @@ h1 {
 	font-size: 90%;
 }
 
+#drinks {
+	display: table-cell;
+	background-color: #efe5d0;
+	width: 20%;
+	padding: 15px;
+	vertical-align: top;
+}
+
 #main {
 	display: table-cell;
 	background-color: #efe5d0;
