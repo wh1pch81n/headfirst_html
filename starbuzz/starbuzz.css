@@ -17,6 +17,14 @@ h1 {
 	height: 108px;
 }
 
+#headerLogo {
+	float: left;
+}
+
+#headerSlogan {
+	float: right;
+}
+
 #footer {
 	background-color: #675c47;
 	color: #efe5d0;
