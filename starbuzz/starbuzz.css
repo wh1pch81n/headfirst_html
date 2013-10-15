@@ -33,8 +33,12 @@ h1 {
 
 #coupon {
 	position: fixed;
-	top: 300px;
-	left: 100px;
+	top: 350px;
+	left: 0px;
+}
+
+#coupon a, img {
+	border:none;
 }
 
 #footer {
