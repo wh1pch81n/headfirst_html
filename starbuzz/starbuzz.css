@@ -52,7 +52,7 @@ footer {
 	clear: left;
 }
 
-#drinks {
+section#drinks {
 	display: table-cell;
 	background-color: #efe5d0;
 	width: 20%;
@@ -60,7 +60,7 @@ footer {
 	vertical-align: top;
 }
 
-#main {
+section#main {
 	display: table-cell;
 	background-color: #efe5d0;
 	background-image: url("images/background.gif");
@@ -70,7 +70,7 @@ footer {
 	vertical-align: top;
 }
 
-aside {
+aside#sideBar {
 	display: table-cell;
 	background: #efe5d0 url("images/background.gif") bottom right;
 	font-size: 105%;
