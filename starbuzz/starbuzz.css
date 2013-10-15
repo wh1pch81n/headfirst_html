@@ -25,6 +25,12 @@ h1 {
 	float: right;
 }
 
+#award {
+	position: absolute;
+	top: 30px;
+	left: 365px;
+}
+
 #footer {
 	background-color: #675c47;
 	color: #efe5d0;
