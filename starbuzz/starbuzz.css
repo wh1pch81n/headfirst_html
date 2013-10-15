@@ -10,7 +10,7 @@ h1 {
 	color: #954b4b;
 }
 
-#header {
+header {
 	background-color: #675c47;
 	margin: 10px;
 	margin-bottom: 0px;
@@ -41,7 +41,7 @@ h1 {
 	border:none;
 }
 
-#footer {
+footer {
 	background-color: #675c47;
 	color: #efe5d0;
 	text-align: center;
@@ -70,7 +70,7 @@ h1 {
 	vertical-align: top;
 }
 
-#sideBar {
+aside {
 	display: table-cell;
 	background: #efe5d0 url("images/background.gif") bottom right;
 	font-size: 105%;
