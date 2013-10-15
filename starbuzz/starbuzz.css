@@ -70,7 +70,7 @@ section#main, section#blog {
 	vertical-align: top;
 }
 
-aside#sideBar {
+aside {
 	display: table-cell;
 	background: #efe5d0 url("images/background.gif") bottom right;
 	font-size: 105%;
@@ -95,6 +95,33 @@ aside#sideBar {
 	line-height: 1.8em;
 	text-align: center;
 	
+}
+
+nav {
+	background-color: #efe5d0;
+	margin: 10px;
+	margin-bottom: 0px;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none; /*don't want a bulleted list*/
+	padding: 5px 0px 5px 0px;
+}
+
+nav ul li { /*effect the li children on ul*/
+	display: inline; /*using inline instead of block style*/
+	padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+nav ul li.selected {
+	background-color: #c8b99c;
 }
 
 a:link {
