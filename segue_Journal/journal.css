@@ -27,3 +27,70 @@ h2 {
 blockquote {
 	font-style: italic;
 }
+
+table {
+	margin-left: 20px;
+	margin-right: 20px;
+	border: thin solid black;
+	caption-side: bottom; /*move caption to bottom*/
+	/*border-spacing: 0px; /*want no border spacing*/
+	border-collapse: collapse;/*better because it won't over lap the borders*/
+}
+
+td, th {
+	border: thin dotted gray;
+	padding: 5px;
+}
+
+th {
+	background-color: #cc6600;
+}
+
+/*using nthchild to format rows and colums*/
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(6) {
+	text-align: center; /*format columns 2,3 and 6*/
+}
+
+td:nth-child(4),
+td:nth-child(5) {
+	text-align: right; /*format columns 4 and 5*/
+}
+
+tr:nth-child(3),
+tr:nth-child(5),
+tr:nth-child(8) {
+	background-color: #fcba7a; /*format  row*/
+}
+
+table table th { /*table to tablechild to thtablechild*/
+	background-color: white;
+}
+
+table table tr:nth-child(1) {
+	background-color: pink;
+}
+
+table table th {
+	background-color: lightgreen;
+}
+
+table table tr:nth-child(2) {
+	background-color: lightblue;
+}
+caption {
+	font-style: italic;
+	padding-top: 8px;
+}
+
+ul li {
+	list-style-image: url("images/backpack.gif");
+	padding-top: 5px;
+	margin-left: 20px;
+}
+
+ul ul li {
+	list-style-image: none;
+	list-style-type: square;
+}
