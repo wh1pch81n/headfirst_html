@@ -42,12 +42,20 @@ td, th {
 	padding: 5px;
 }
 
+th {
+	background-color: #cc6600;
+}
+
 td.centerAlign {
 	text-align: center;
 }
 
 td.rightAlign {
 	text-align: right;
+}
+
+.cellColor {
+	background-color: #fcba7a;
 }
 
 caption {
