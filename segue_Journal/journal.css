@@ -33,11 +33,21 @@ table {
 	margin-right: 20px;
 	border: thin solid black;
 	caption-side: bottom; /*move caption to bottom*/
+	/*border-spacing: 0px; /*want no border spacing*/
+	border-collapse: collapse;/*better because it won't over lap the borders*/
 }
 
 td, th {
 	border: thin dotted gray;
 	padding: 5px;
+}
+
+td.centerAlign {
+	text-align: center;
+}
+
+td.rightAlign {
+	text-align: right;
 }
 
 caption {
