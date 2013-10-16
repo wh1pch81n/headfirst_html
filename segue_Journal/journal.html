@@ -58,12 +58,29 @@
 				<td>3/5</td>
 			</tr>
 			<tr>
-				<td>Truth or Consequences, NM</td>
+				<!-- using rowspan to increase number of rows per tr -->
+				<td rowspan="2">Truth or Consequences, NM</td>
 				<td>August 9th</td>
 				<td>93</td>
-				<td>4,242 ft</td>
-				<td>7,289</td>
+				<td rowspan="2">4,242 ft</td>
+				<td rowspan="2">7,289</td>
 				<td>5/5</td>
+			</tr>
+			<tr>
+				<td>August 27th</td>
+				<td>98</td>
+				<td><!-- make a table within a table -->
+					<table>
+						<tr>
+							<th>Tess</th>
+							<td>5/5</td>
+						</tr>
+						<tr>
+							<th>Tony</th>
+							<td>4/5</td>
+						</tr>
+					</table>
+				</td>
 			</tr>
 			<tr>
 				<td>Why, AZ</td>
@@ -100,7 +117,7 @@
 		My first day of the trip! I can't believe I finally got everything packed and ready to go.  Because I'm on a Segway, I wasn't able to bring a whole lot with me:
 		</p>
 		<!--  you can nest a list -->
-		<ol>
+		<ul>
 			<li>Charge segway</li>
 			<li>Pack for trip</li>
 			<ul> <!-- unordered list i.e. bullet list -->

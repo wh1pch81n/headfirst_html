@@ -58,13 +58,34 @@ td:nth-child(5) {
 	text-align: right; /*format columns 4 and 5*/
 }
 
-tr:nth-child(2n+1){
- background-color: #fcba7a; /*format every even row*/
+tr:nth-child(3),
+tr:nth-child(5),
+tr:nth-child(8) {
+	background-color: #fcba7a; /*format  row*/
 }
 
+table table th { /*table to tablechild to thtablechild*/
+	background-color: white;
+}
 
+table table tr:nth-child(1) {
+	background-color: pink;
+}
 
+table table th {
+	background-color: lightgreen;
+}
+
+table table tr:nth-child(2) {
+	background-color: lightblue;
+}
 caption {
 	font-style: italic;
 	padding-top: 8px;
+}
+
+ul {
+	list-style-image: url("images/backpack.gif");
+	padding-top: 5px;
+	margin-left: 20px;
 }
