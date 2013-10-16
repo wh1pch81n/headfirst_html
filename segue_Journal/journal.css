@@ -46,17 +46,23 @@ th {
 	background-color: #cc6600;
 }
 
-td.centerAlign {
-	text-align: center;
+/*using nthchild to format rows and colums*/
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(6) {
+	text-align: center; /*format columns 2,3 and 6*/
 }
 
-td.rightAlign {
-	text-align: right;
+td:nth-child(4),
+td:nth-child(5) {
+	text-align: right; /*format columns 4 and 5*/
 }
 
-.cellColor {
-	background-color: #fcba7a;
+tr:nth-child(2n+1){
+ background-color: #fcba7a; /*format every even row*/
 }
+
+
 
 caption {
 	font-style: italic;
