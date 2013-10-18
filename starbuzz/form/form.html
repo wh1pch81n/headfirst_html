@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title>Online Coffee Order</title>
+			</head>
+	<body>
+		<div id="onlineForm">
+			<form action="" method="POST">
+				<p>
+				Choose Your Beans:
+				<select name="beanName">
+					<option value="houseBlend">House Blend</option>
+					<option value="shadeGrownBoliviaSupremo">Shade Grown Bolivia Supremo</option>
+					<option value="organicGuatemala">Organic Guatemala</option>
+					<option value="Kenya">Kenya</option>
+				</select><br>
+				</p>
+				<p>
+				type:<br>
+				<input type="radio"
+					name="beanType"
+					value="wholeBean">Whole Bean</input><br>
+				<input type="radio"
+					name="beanType"
+					value="ground">Ground</input><br>
+				</p>
+				<p>
+				Number of bags:
+				<input type="number"
+					min="1"
+					max="5"></input><br>
+				</p>
+				<p>
+				Must arrive by date:
+				<input type="date"></input><br>
+				</p>
+				<p>
+				Extras: <br>
+				<input type="checkbox"
+					name="extras"
+					value="giftWrap">Gift Wrap</input><br>
+				<input type="checkbox"
+					name="extras"
+					value="catalog">Include catalog with order</input><br>
+				</p>
+				<p>
+				Ship to:<br>
+				Name:<input type="text" name="name" value=""></input><br>
+				Address:<input type="text" name="address" value=""></input><br>
+				City:<input type="text" name="city" value=""></input><br>
+				State:<input type="text" name="state" value=""></input><br>
+				Zip:<input type="text" name="zip" value=""></input><br>
+				Phone:<input type="tel"></input><br>
+				</p>
+				<p>
+				Customer Comments:<br>
+				<textarea name="comments" rows="10" cols="20"></textarea>
+				</p>
+				<input type="submit"></input><br>
+				</div>
+	</body>
+</html>
